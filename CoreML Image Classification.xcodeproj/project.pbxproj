@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAE8AE111F9EC1DA0007E886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8AE101F9EC1DA0007E886 /* AppDelegate.swift */; };
+		DAE8AE131F9EC1DA0007E886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8AE121F9EC1DA0007E886 /* ViewController.swift */; };
+		DAE8AE161F9EC1DA0007E886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE8AE141F9EC1DA0007E886 /* Main.storyboard */; };
+		DAE8AE191F9EC1DA0007E886 /* CoreML_Image_Classification.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAE8AE171F9EC1DA0007E886 /* CoreML_Image_Classification.xcdatamodeld */; };
+		DAE8AE1B1F9EC1DA0007E886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE8AE1A1F9EC1DA0007E886 /* Assets.xcassets */; };
+		DAE8AE1E1F9EC1DA0007E886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE8AE1C1F9EC1DA0007E886 /* LaunchScreen.storyboard */; };
+		DAE8AE291F9EC1DA0007E886 /* CoreML_Image_ClassificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8AE281F9EC1DA0007E886 /* CoreML_Image_ClassificationTests.swift */; };
+		DAE8AE341F9EC1DA0007E886 /* CoreML_Image_ClassificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8AE331F9EC1DA0007E886 /* CoreML_Image_ClassificationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAE8AE251F9EC1DA0007E886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE8AE051F9EC1DA0007E886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE8AE0C1F9EC1DA0007E886;
+			remoteInfo = "CoreML Image Classification";
+		};
+		DAE8AE301F9EC1DA0007E886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE8AE051F9EC1DA0007E886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE8AE0C1F9EC1DA0007E886;
+			remoteInfo = "CoreML Image Classification";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAE8AE0D1F9EC1DA0007E886 /* CoreML Image Classification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreML Image Classification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE8AE101F9EC1DA0007E886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAE8AE121F9EC1DA0007E886 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAE8AE151F9EC1DA0007E886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAE8AE181F9EC1DA0007E886 /* CoreML_Image_Classification.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreML_Image_Classification.xcdatamodel; sourceTree = "<group>"; };
+		DAE8AE1A1F9EC1DA0007E886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAE8AE1D1F9EC1DA0007E886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAE8AE1F1F9EC1DA0007E886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE8AE241F9EC1DA0007E886 /* CoreML Image ClassificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreML Image ClassificationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE8AE281F9EC1DA0007E886 /* CoreML_Image_ClassificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_Image_ClassificationTests.swift; sourceTree = "<group>"; };
+		DAE8AE2A1F9EC1DA0007E886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE8AE2F1F9EC1DA0007E886 /* CoreML Image ClassificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreML Image ClassificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE8AE331F9EC1DA0007E886 /* CoreML_Image_ClassificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_Image_ClassificationUITests.swift; sourceTree = "<group>"; };
+		DAE8AE351F9EC1DA0007E886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAE8AE0A1F9EC1DA0007E886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE8AE211F9EC1DA0007E886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE8AE2C1F9EC1DA0007E886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAE8AE041F9EC1DA0007E886 = {
+			isa = PBXGroup;
+			children = (
+				DAE8AE0F1F9EC1DA0007E886 /* CoreML Image Classification */,
+				DAE8AE271F9EC1DA0007E886 /* CoreML Image ClassificationTests */,
+				DAE8AE321F9EC1DA0007E886 /* CoreML Image ClassificationUITests */,
+				DAE8AE0E1F9EC1DA0007E886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAE8AE0E1F9EC1DA0007E886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8AE0D1F9EC1DA0007E886 /* CoreML Image Classification.app */,
+				DAE8AE241F9EC1DA0007E886 /* CoreML Image ClassificationTests.xctest */,
+				DAE8AE2F1F9EC1DA0007E886 /* CoreML Image ClassificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE8AE0F1F9EC1DA0007E886 /* CoreML Image Classification */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8AE101F9EC1DA0007E886 /* AppDelegate.swift */,
+				DAE8AE121F9EC1DA0007E886 /* ViewController.swift */,
+				DAE8AE141F9EC1DA0007E886 /* Main.storyboard */,
+				DAE8AE1A1F9EC1DA0007E886 /* Assets.xcassets */,
+				DAE8AE1C1F9EC1DA0007E886 /* LaunchScreen.storyboard */,
+				DAE8AE1F1F9EC1DA0007E886 /* Info.plist */,
+				DAE8AE171F9EC1DA0007E886 /* CoreML_Image_Classification.xcdatamodeld */,
+			);
+			path = "CoreML Image Classification";
+			sourceTree = "<group>";
+		};
+		DAE8AE271F9EC1DA0007E886 /* CoreML Image ClassificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8AE281F9EC1DA0007E886 /* CoreML_Image_ClassificationTests.swift */,
+				DAE8AE2A1F9EC1DA0007E886 /* Info.plist */,
+			);
+			path = "CoreML Image ClassificationTests";
+			sourceTree = "<group>";
+		};
+		DAE8AE321F9EC1DA0007E886 /* CoreML Image ClassificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8AE331F9EC1DA0007E886 /* CoreML_Image_ClassificationUITests.swift */,
+				DAE8AE351F9EC1DA0007E886 /* Info.plist */,
+			);
+			path = "CoreML Image ClassificationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAE8AE0C1F9EC1DA0007E886 /* CoreML Image Classification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE8AE381F9EC1DA0007E886 /* Build configuration list for PBXNativeTarget "CoreML Image Classification" */;
+			buildPhases = (
+				DAE8AE091F9EC1DA0007E886 /* Sources */,
+				DAE8AE0A1F9EC1DA0007E886 /* Frameworks */,
+				DAE8AE0B1F9EC1DA0007E886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreML Image Classification";
+			productName = "CoreML Image Classification";
+			productReference = DAE8AE0D1F9EC1DA0007E886 /* CoreML Image Classification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAE8AE231F9EC1DA0007E886 /* CoreML Image ClassificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE8AE3B1F9EC1DA0007E886 /* Build configuration list for PBXNativeTarget "CoreML Image ClassificationTests" */;
+			buildPhases = (
+				DAE8AE201F9EC1DA0007E886 /* Sources */,
+				DAE8AE211F9EC1DA0007E886 /* Frameworks */,
+				DAE8AE221F9EC1DA0007E886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE8AE261F9EC1DA0007E886 /* PBXTargetDependency */,
+			);
+			name = "CoreML Image ClassificationTests";
+			productName = "CoreML Image ClassificationTests";
+			productReference = DAE8AE241F9EC1DA0007E886 /* CoreML Image ClassificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAE8AE2E1F9EC1DA0007E886 /* CoreML Image ClassificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE8AE3E1F9EC1DA0007E886 /* Build configuration list for PBXNativeTarget "CoreML Image ClassificationUITests" */;
+			buildPhases = (
+				DAE8AE2B1F9EC1DA0007E886 /* Sources */,
+				DAE8AE2C1F9EC1DA0007E886 /* Frameworks */,
+				DAE8AE2D1F9EC1DA0007E886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE8AE311F9EC1DA0007E886 /* PBXTargetDependency */,
+			);
+			name = "CoreML Image ClassificationUITests";
+			productName = "CoreML Image ClassificationUITests";
+			productReference = DAE8AE2F1F9EC1DA0007E886 /* CoreML Image ClassificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAE8AE051F9EC1DA0007E886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Vardhan Agrawal";
+				TargetAttributes = {
+					DAE8AE0C1F9EC1DA0007E886 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					DAE8AE231F9EC1DA0007E886 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAE8AE0C1F9EC1DA0007E886;
+					};
+					DAE8AE2E1F9EC1DA0007E886 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAE8AE0C1F9EC1DA0007E886;
+					};
+				};
+			};
+			buildConfigurationList = DAE8AE081F9EC1DA0007E886 /* Build configuration list for PBXProject "CoreML Image Classification" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAE8AE041F9EC1DA0007E886;
+			productRefGroup = DAE8AE0E1F9EC1DA0007E886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAE8AE0C1F9EC1DA0007E886 /* CoreML Image Classification */,
+				DAE8AE231F9EC1DA0007E886 /* CoreML Image ClassificationTests */,
+				DAE8AE2E1F9EC1DA0007E886 /* CoreML Image ClassificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAE8AE0B1F9EC1DA0007E886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE8AE1E1F9EC1DA0007E886 /* LaunchScreen.storyboard in Resources */,
+				DAE8AE1B1F9EC1DA0007E886 /* Assets.xcassets in Resources */,
+				DAE8AE161F9EC1DA0007E886 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE8AE221F9EC1DA0007E886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE8AE2D1F9EC1DA0007E886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAE8AE091F9EC1DA0007E886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE8AE131F9EC1DA0007E886 /* ViewController.swift in Sources */,
+				DAE8AE111F9EC1DA0007E886 /* AppDelegate.swift in Sources */,
+				DAE8AE191F9EC1DA0007E886 /* CoreML_Image_Classification.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE8AE201F9EC1DA0007E886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE8AE291F9EC1DA0007E886 /* CoreML_Image_ClassificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE8AE2B1F9EC1DA0007E886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE8AE341F9EC1DA0007E886 /* CoreML_Image_ClassificationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAE8AE261F9EC1DA0007E886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE8AE0C1F9EC1DA0007E886 /* CoreML Image Classification */;
+			targetProxy = DAE8AE251F9EC1DA0007E886 /* PBXContainerItemProxy */;
+		};
+		DAE8AE311F9EC1DA0007E886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE8AE0C1F9EC1DA0007E886 /* CoreML Image Classification */;
+			targetProxy = DAE8AE301F9EC1DA0007E886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAE8AE141F9EC1DA0007E886 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE8AE151F9EC1DA0007E886 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAE8AE1C1F9EC1DA0007E886 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE8AE1D1F9EC1DA0007E886 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAE8AE361F9EC1DA0007E886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAE8AE371F9EC1DA0007E886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAE8AE391F9EC1DA0007E886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NEP5C8ZW6;
+				INFOPLIST_FILE = "CoreML Image Classification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.CoreML-Image-Classification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAE8AE3A1F9EC1DA0007E886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NEP5C8ZW6;
+				INFOPLIST_FILE = "CoreML Image Classification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.CoreML-Image-Classification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAE8AE3C1F9EC1DA0007E886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NEP5C8ZW6;
+				INFOPLIST_FILE = "CoreML Image ClassificationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.CoreML-Image-ClassificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreML Image Classification.app/CoreML Image Classification";
+			};
+			name = Debug;
+		};
+		DAE8AE3D1F9EC1DA0007E886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NEP5C8ZW6;
+				INFOPLIST_FILE = "CoreML Image ClassificationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.CoreML-Image-ClassificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreML Image Classification.app/CoreML Image Classification";
+			};
+			name = Release;
+		};
+		DAE8AE3F1F9EC1DA0007E886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NEP5C8ZW6;
+				INFOPLIST_FILE = "CoreML Image ClassificationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.CoreML-Image-ClassificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CoreML Image Classification";
+			};
+			name = Debug;
+		};
+		DAE8AE401F9EC1DA0007E886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NEP5C8ZW6;
+				INFOPLIST_FILE = "CoreML Image ClassificationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.CoreML-Image-ClassificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CoreML Image Classification";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAE8AE081F9EC1DA0007E886 /* Build configuration list for PBXProject "CoreML Image Classification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE8AE361F9EC1DA0007E886 /* Debug */,
+				DAE8AE371F9EC1DA0007E886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE8AE381F9EC1DA0007E886 /* Build configuration list for PBXNativeTarget "CoreML Image Classification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE8AE391F9EC1DA0007E886 /* Debug */,
+				DAE8AE3A1F9EC1DA0007E886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE8AE3B1F9EC1DA0007E886 /* Build configuration list for PBXNativeTarget "CoreML Image ClassificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE8AE3C1F9EC1DA0007E886 /* Debug */,
+				DAE8AE3D1F9EC1DA0007E886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE8AE3E1F9EC1DA0007E886 /* Build configuration list for PBXNativeTarget "CoreML Image ClassificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE8AE3F1F9EC1DA0007E886 /* Debug */,
+				DAE8AE401F9EC1DA0007E886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAE8AE171F9EC1DA0007E886 /* CoreML_Image_Classification.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAE8AE181F9EC1DA0007E886 /* CoreML_Image_Classification.xcdatamodel */,
+			);
+			currentVersion = DAE8AE181F9EC1DA0007E886 /* CoreML_Image_Classification.xcdatamodel */;
+			path = CoreML_Image_Classification.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAE8AE051F9EC1DA0007E886 /* Project object */;
+}
