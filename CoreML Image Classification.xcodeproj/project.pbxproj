@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA0AB2A31FA15B5400936436 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DA0AB2A21FA15B5400936436 /* MobileNet.mlmodel */; };
 		DAE8AE111F9EC1DA0007E886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8AE101F9EC1DA0007E886 /* AppDelegate.swift */; };
 		DAE8AE131F9EC1DA0007E886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8AE121F9EC1DA0007E886 /* ViewController.swift */; };
 		DAE8AE161F9EC1DA0007E886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE8AE141F9EC1DA0007E886 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA0AB2A21FA15B5400936436 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 		DAE8AE0D1F9EC1DA0007E886 /* CoreML Image Classification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreML Image Classification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE8AE101F9EC1DA0007E886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAE8AE121F9EC1DA0007E886 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				DAE8AE101F9EC1DA0007E886 /* AppDelegate.swift */,
 				DAE8AE121F9EC1DA0007E886 /* ViewController.swift */,
+				DA0AB2A21FA15B5400936436 /* MobileNet.mlmodel */,
 				DAE8AE141F9EC1DA0007E886 /* Main.storyboard */,
 				DAE8AE1A1F9EC1DA0007E886 /* Assets.xcassets */,
 				DAE8AE1C1F9EC1DA0007E886 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0AB2A31FA15B5400936436 /* MobileNet.mlmodel in Sources */,
 				DAE8AE131F9EC1DA0007E886 /* ViewController.swift in Sources */,
 				DAE8AE111F9EC1DA0007E886 /* AppDelegate.swift in Sources */,
 				DAE8AE191F9EC1DA0007E886 /* CoreML_Image_Classification.xcdatamodeld in Sources */,
@@ -431,7 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6NEP5C8ZW6;
+				DEVELOPMENT_TEAM = H652T59SLE;
 				INFOPLIST_FILE = "CoreML Image Classification/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.CoreML-Image-Classification";
@@ -446,7 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6NEP5C8ZW6;
+				DEVELOPMENT_TEAM = H652T59SLE;
 				INFOPLIST_FILE = "CoreML Image Classification/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.CoreML-Image-Classification";
